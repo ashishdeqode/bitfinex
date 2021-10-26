@@ -18,7 +18,10 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "angular-highcharts": "^12.0.0",
+    "highcharts": "^9.3.0",
     "rxjs": "~6.6.0",
+    "socket.io-client": "^4.3.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
