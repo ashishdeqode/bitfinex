@@ -7,17 +7,25 @@ import { ChartComponent } from './components/chart/chart.component';
 import { Error404Component } from './components/error404/error404.component';
 import * as Exporting from 'highcharts/modules/exporting';
 import { ChartModule } from 'angular-highcharts';
+import { ChartsModule } from 'ng2-charts';
+import { StockChartComponent } from './components/stock-chart/stock-chart.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
-    Error404Component
+    Error404Component,
+    StockChartComponent,
+    LineChartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ChartModule
+    BrowserAnimationsModule,
+    ChartModule,
+    ChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

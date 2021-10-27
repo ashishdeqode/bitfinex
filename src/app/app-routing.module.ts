@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ChartComponent } from './components/chart/chart.component';
 import { Error404Component } from './components/error404/error404.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { StockChartComponent } from './components/stock-chart/stock-chart.component';
 
 const routes: Routes = [
   {
@@ -10,7 +12,11 @@ const routes: Routes = [
   },
   {
     path: 'chart',
-    component: ChartComponent
+    component: LineChartComponent
+  },
+  {
+    path: 'stock',
+    component: StockChartComponent
   },
   {
     path: '**',

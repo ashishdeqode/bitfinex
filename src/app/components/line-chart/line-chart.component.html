@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="chart">
+    <canvas #chart baseChart width="100%"
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [colors]="lineChartColors"
+      [legend]="lineChartLegend"
+      [plugins]="lineChartPlugins">
+    </canvas>
+  </div>
+  <button class="btn btn-primary" (click)="update()">Add Data</button>
+</div>

@@ -19,7 +19,11 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "angular-highcharts": "^12.0.0",
+    "chart.js": "^2.9.3",
+    "chartjs-adapter-luxon": "^1.1.0",
     "highcharts": "^9.3.0",
+    "luxon": "^2.0.2",
+    "ng2-charts": "^2.3.0",
     "rxjs": "~6.6.0",
     "socket.io-client": "^4.3.2",
     "tslib": "^2.3.0",
@@ -30,6 +34,7 @@
     "@angular/cli": "~12.2.9",
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
+    "@types/luxon": "^2.0.5",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.8.0",
     "karma": "~6.3.0",
@@ -37,6 +42,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ng2-charts-schematics": "^0.1.7",
     "typescript": "~4.3.5"
   }
 }
