@@ -1,0 +1,18 @@
+<div class="container mt-2">
+  <div class="row mb-2">
+    <div class="col-2 p-2">
+      <label for="symbol">   Select Symbol</label>
+    </div>
+    <div class="col-3">
+      <select (change)="getChartData($event)" class="form-control" name="symbol" id="symbol">
+        <option value="">Select...</option>
+        <option [value]="data" *ngFor="let data of symbol">{{data}}</option>
+      </select>
+    </div>
+  </div>
+  <div *ngIf="showChart" [chart]="stockChart"></div>
+</div>
+
+<!-- <button class="btn btn-primary" (click)="addNewPoint()">Add Chart Data</button> -->
+<!-- <button class="btn btn-primary" (click)="getChartData()">Get Chart Data</button> -->
+

@@ -9,7 +9,7 @@ import { StockChartComponent } from './components/stock-chart/stock-chart.compon
 const routes: Routes = [
   {
     path: '',
-    component: ChartComponent
+    component: HStockComponent
   },
   {
     path: 'line-chart',
