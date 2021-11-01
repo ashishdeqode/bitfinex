@@ -11,6 +11,7 @@ import { ChartsModule } from 'ng2-charts';
 import { StockChartComponent } from './components/stock-chart/stock-chart.component';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HStockComponent } from './components/h-stock/h-stock.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Error404Component,
     StockChartComponent,
     LineChartComponent,
+    HStockComponent,
   ],
   imports: [
     BrowserModule,
